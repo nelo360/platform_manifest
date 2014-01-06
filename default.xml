@@ -427,10 +427,12 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
-  <project path="platform_manifest" name="SlimRoms/platform_manifest" remote="github" revision="kk4.4" />
+  <project path="platform_manifest" name="nelo360/platform_manifest" remote="github" revision="kk4.4" />
 
   <!-- New Additions for slim -->
   <project path="vendor/slim" name="nelo360/vendor_slim" remote="github" revision="kk4.4" />
+  
+  <project path="packages/apps/Apollo" name="nelo360/android_packages_apps_Apollo" remote="github" revision="cm-11.0" />
 
   <!-- Slim OTA 
   <project path="packages/apps/SlimCenter" name="SlimRoms/packages_apps_SlimCenter" remote="github" revision="kk4.4" /> -->
@@ -445,7 +447,7 @@
   <project path="external/koush/Widgets" name="CyanogenMod/Widgets" remote="github" revision="cm-11.0" />
 
   <!-- DashClock widget -->
-  <project path="packages/apps/DashClock" name="SlimRoms/packages_apps_DashClock" remote="github" revision="kk4.4" />
+  <project path="packages/apps/LockClock" name="nelo360/android_packages_apps_LockClock" remote="github" revision="cm-11.0" />
 
   <!-- Slim toolchain gcc and linaro -->
   <project path="prebuilt" name="SlimRoms/android_prebuilt" remote="github" revision="kk4.4" />
