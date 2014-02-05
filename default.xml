@@ -280,7 +280,7 @@
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="qcom_msm8x74" />
   <project path="hardware/qcom/power" name="SlimRoms/hardware_qcom_power" remote="github" revision="kk4.4" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
-  <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan" />
+  <project path="hardware/qcom/wlan" name="SlimRoms/hardware_qcom_wlan" remote="github" revision="kk4.4" />
   <project path="hardware/ril" name="SlimRoms/hardware_ril" remote="github" revision="kk4.4" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" />
   <project path="hardware/ti/omap3" name="SlimRoms/hardware_ti_omap3" remote="github" revision="kk4.4" />
@@ -359,7 +359,7 @@
   <project path="packages/wallpapers/MagicSmoke" name="platform/packages/wallpapers/MagicSmoke" />
   <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" />
   <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" />
-  <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" />
+  <project path="packages/wallpapers/PhaseBeam" name="SlimRoms/packages_wallpapers_PhaseBeam" remote="github" revision="kk4.4" />
   <project path="pdk" name="platform/pdk" groups="pdk" />
   <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="pdk,darwin" />
   <project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="pdk,darwin" />
@@ -438,27 +438,34 @@
   <project path="packages/apps/SlimCenter" name="SlimRoms/packages_apps_SlimCenter" remote="github" revision="kk4.4" /> -->
 
   <!-- Slim file manager
-  
   <project path="packages/apps/SlimFileManager" name="SlimRoms/packages_apps_SlimFileManager" remote="github" revision="kk4.4" /> -->
 
+  <!-- DSPManager -->
+  <project path="packages/apps/DSPManager" name="SlimRoms/packages_apps_DSPManager" remote="github" revision="kk4.4" />
+
+  <!-- DashClock widget -->
+  <project path="packages/apps/LockClock" name="nelo360/android_packages_apps_LockClock" remote="github" revision="cm-11.0" />
+
+  <!--Power Hal -->
+  <project path="hardware/cm" name="SlimRoms/hardware_cm" remote="github" revision="kk4.4" />
+
+  <!-- Slim toolchain gcc and linaro -->
+  <project path="prebuilt" name="SlimRoms/android_prebuilt" remote="github" revision="kk4.4" />
+
+  <!-- DashClock widget -->
+  <project path="packages/apps/DashClock" name="SlimRoms/packages_apps_DashClock" remote="github" revision="kk4.4" />
+
+  <!-- Google play services -->
+  <project path="external/google/google_play_services" name="SlimRoms/android_external_google_google_play_services" remote="github" revision="kk4.4" />
 
   <!-- Koush Superuser -->
   <project path="external/koush/Superuser" name="SlimRoms/Superuser" remote="github" revision="kk4.4" />
   <project path="external/koush/Widgets" name="CyanogenMod/Widgets" remote="github" revision="cm-11.0" />
 
-  <!-- DashClock widget -->
-  <project path="packages/apps/LockClock" name="nelo360/android_packages_apps_LockClock" remote="github" revision="cm-11.0" />
-
-  <!-- Slim toolchain gcc and linaro -->
-  <project path="prebuilt" name="SlimRoms/android_prebuilt" remote="github" revision="kk4.4" />
-
   <!--CyanogenMod SamsungServiceMode -->
   <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" remote="github" revision="cm-11.0" />
 
-  <!-- DSPManager -->
-  <project path="packages/apps/DSPManager" name="SlimRoms/packages_apps_DSPManager" remote="github" revision="kk4.4" />
-
-  <!--CyanogenMod Power Hal -->
-  <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" remote="github" revision="cm-11.0" />
+  <!-- CyanogenMod qrngd -->
+  <project path="external/qrngd" name="CyanogenMod/android_external_qrngd" remote="github" revision="cm-11.0" />
 
 </manifest>
