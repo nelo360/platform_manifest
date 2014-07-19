@@ -462,7 +462,7 @@
   <project path="packages/apps/DashClock" name="SlimRoms/packages_apps_DashClock" remote="github" revision="kk4.4" />
 
   <!-- LockClock widget -->
-  <project path="packages/apps/LockClock" name="nelo360/packages_apps_LockClock" remote="github" revision="cm-11.0" />
+  <project path="packages/apps/LockClock" name="nelo360/android_packages_apps_LockClock" remote="github" revision="cm-11.0" />
 
   <!--Power Hal -->
   <project path="hardware/cm" name="SlimRoms/hardware_cm" remote="github" revision="kk4.4" />
