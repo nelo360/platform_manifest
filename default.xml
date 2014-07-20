@@ -265,6 +265,7 @@
   <project path="frameworks/opt/telephony" name="SlimRoms/frameworks_opt_telephony" remote="github" revision="kk4.4" />
   <project path="frameworks/opt/vcard" name="SlimRoms/android_frameworks_opt_vcard" remote="github" revision="kk4.4" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" />
+  <project path="frameworks/opt/hardware" name="nelo360/android_frameworks_opt_hardware" remote="github" revision="cm-11.0" />
   <project path="frameworks/rs" name="SlimRoms/frameworks_rs" remote="github" revision="kk4.4" groups="pdk" />
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
