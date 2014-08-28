@@ -96,7 +96,7 @@
   <project path="external/doclava" name="platform/external/doclava" />
   <project path="external/dropbear" name="platform/external/dropbear" />
   <project path="external/droiddriver" name="platform/external/droiddriver" />
-  <project path="external/e2fsprogs" name="SlimRoms/android_external_e2fsprogs" remote="github" revision="kk4.4" />
+  <project path="external/e2fsprogs" name="SlimRoms/android_external_e2fsprogs" remote="github" revision="kk4.4"  />
   <project path="external/easymock" name="platform/external/easymock" />
   <project path="external/ebtables" name="CyanogenMod/android_external_ebtables" remote="github" revision="cm-11.0" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" />
@@ -108,13 +108,13 @@
   <project path="external/esd" name="platform/external/esd" />
   <project path="external/expat" name="platform/external/expat" groups="pdk" />
   <project path="external/eyes-free" name="platform/external/eyes-free" />
-  <project path="external/f2fs-tools" name="SlimRoms/android_external_f2fs-tools" remote="github" revision="kk4.4" />
   <project path="external/exfat" name="SlimRoms/android_external_exfat" remote="github" revision="kk4.4" />
+  <project path="external/fuse" name="SlimRoms/android_external_fuse" remote="github" revision="kk4.4" />
+  <project path="external/f2fs-tools" name="SlimRoms/android_external_f2fs-tools" remote="github" revision="kk4.4"  />
   <project path="external/fdlibm" name="platform/external/fdlibm" />
   <project path="external/flac" name="SlimRoms/android_external_flac" remote="github" revision="kk4.4"  />
   <project path="external/freetype" name="platform/external/freetype" groups="pdk" />
   <project path="external/fsck_msdos" name="platform/external/fsck_msdos" />
-  <project path="external/fuse" name="SlimRoms/android_external_fuse" remote="github" revision="kk4.4" />
   <project path="external/ganymed-ssh2" name="platform/external/ganymed-ssh2" />
   <project path="external/gcc-demangle" name="platform/external/gcc-demangle" groups="pdk" />
   <project path="external/genext2fs" name="platform/external/genext2fs" />
@@ -266,6 +266,7 @@
   <project path="frameworks/opt/telephony" name="SlimRoms/frameworks_opt_telephony" remote="github" revision="kk4.4" />
   <project path="frameworks/opt/vcard" name="SlimRoms/android_frameworks_opt_vcard" remote="github" revision="kk4.4" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" />
+  <project path="frameworks/opt/hardware" name="nelo360/android_frameworks_opt_hardware" remote="github" revision="cm-11.0" />
   <project path="frameworks/rs" name="SlimRoms/frameworks_rs" remote="github" revision="kk4.4" groups="pdk" />
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
@@ -292,7 +293,7 @@
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
   <project path="hardware/qcom/wlan" name="SlimRoms/hardware_qcom_wlan" remote="github" revision="kk4.4-caf" />
   <project path="hardware/ril" name="SlimRoms/hardware_ril" remote="github" revision="kk4.4" />
-  <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" />
+  <project path="hardware/samsung_slsi/exynos5" name="SlimRoms/hardware_samsung_slsi_exynos5" remote="github" revision="kk4.4" />
   <project path="hardware/ti/omap3" name="SlimRoms/hardware_ti_omap3" remote="github" revision="kk4.4" />
   <project path="hardware/ti/omap4xxx" name="SlimRoms/hardware_ti_omap4xxx" remote="github" revision="kk4.4" />
   <project path="hardware/ti/wlan" name="SlimRoms/hardware_ti_wlan" remote="github" revision="kk4.4" />
@@ -423,7 +424,7 @@
   <project path="sdk" name="platform/sdk" />
   <project path="system/core" name="SlimRoms/android_system_core" remote="github" revision="kk4.4-caf" />
   <project path="system/extras" name="SlimRoms/android_system_extras" remote="github" revision="kk4.4" />
-  <project path="system/media" name="SlimRoms/android_system_media" remote="github" revision="kk4.4" />
+  <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="SlimRoms/android_system_netd" remote="github" revision="kk4.4" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
   <project path="system/vold" name="SlimRoms/android_system_vold" remote="github" revision="kk4.4" />
@@ -443,33 +444,30 @@
 
   <!-- New Additions for slim -->
   <project path="vendor/slim" name="nelo360/vendor_slim" remote="github" revision="kk4.4" />
+
+  <!-- Slim OTA 
+  <project path="packages/apps/SlimCenter" name="SlimRoms/packages_apps_SlimCenter" remote="github" revision="kk4.4" /> -->
+
+  <!-- Slim file manager 
+  <project path="packages/apps/SlimFileManager" name="SlimRoms/packages_apps_SlimFileManager" remote="github" revision="kk4.4" /> -->
   
   <!-- Apollo -->
   <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" remote="github" revision="cm-11.0" />
 
-  <!-- Slim OTA
-  <project path="packages/apps/SlimCenter" name="SlimRoms/packages_apps_SlimCenter" remote="github" revision="kk4.4" />
-
-  <Slim file manager 
-  <project path="packages/apps/SlimFileManager" name="SlimRoms/packages_apps_SlimFileManager" remote="github" revision="kk4.4" /> -->
-
-  <!-- Performance Control -->
-  <project path="packages/apps/PerformanceControl" name="nelo360/android_packages_apps_PerformanceControl" remote="github" revision="kk-4.4" />
-
   <!-- DSPManager -->
   <project path="packages/apps/DSPManager" name="SlimRoms/packages_apps_DSPManager" remote="github" revision="kk4.4" />
-
-  <!-- DashClock widget -->
-  <project path="packages/apps/DashClock" name="SlimRoms/packages_apps_DashClock" remote="github" revision="kk4.4" />
-
-  <!-- LockClock widget -->
-  <project path="packages/apps/LockClock" name="nelo360/android_packages_apps_LockClock" remote="github" revision="cm-11.0" />
 
   <!--Power Hal -->
   <project path="hardware/cm" name="SlimRoms/hardware_cm" remote="github" revision="kk4.4" />
 
   <!-- Slim toolchain gcc and linaro -->
   <project path="prebuilt" name="SlimRoms/android_prebuilt" remote="github" revision="kk4.4" />
+
+  <!-- LockClock widget -->
+  <project path="packages/apps/LockClock" name="nelo360/android_packages_apps_LockClock" remote="github" revision="cm-11.0" />
+
+  <!-- DashClock widget -->
+  <project path="packages/apps/DashClock" name="SlimRoms/packages_apps_DashClock" remote="github" revision="kk4.4" />
 
   <!-- Google play services -->
   <project path="external/google" name="nelo360/android_external_google" remote="github" revision="cm-11.0" />
