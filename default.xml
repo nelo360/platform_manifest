@@ -451,6 +451,9 @@
   <!-- Slim file manager 
   <project path="packages/apps/SlimFileManager" name="SlimRoms/packages_apps_SlimFileManager" remote="github" revision="kk4.4" /> -->
   
+  <!-- Performance Control -->
+  <project path="packages/apps/PerformanceControl" name="nelo360/android_packages_apps_PerformanceControl" remote="github" revision="kk-4.4" />
+  
   <!-- Apollo -->
   <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" remote="github" revision="cm-11.0" />
 
