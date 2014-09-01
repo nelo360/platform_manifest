@@ -20,7 +20,8 @@
   <project path="bionic" name="SlimRoms/android_bionic" remote="github" revision="kk4.4" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="SlimRoms/bootable_recovery" remote="github" revision="kk4.4" />
+  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="github" revision="cm-11.0" />
+  <project path="bootable/recovery-cm" name="CyanogenMod/android_bootable_recovery-cm" remote="github" revision="cm-11.0" />
   <project path="cts" name="platform/cts" groups="cts" />
   <project path="dalvik" name="SlimRoms/android_dalvik" remote="github" revision="kk4.4" />
   <project path="developers/build" name="platform/developers/build" />
@@ -424,7 +425,7 @@
   <project path="sdk" name="platform/sdk" />
   <project path="system/core" name="SlimRoms/android_system_core" remote="github" revision="kk4.4-caf" />
   <project path="system/extras" name="SlimRoms/android_system_extras" remote="github" revision="kk4.4" />
-  <project path="system/media" name="platform/system/media" groups="pdk" />
+  <project path="system/media" name="CyanogenMod/android_system_media" remote="github" revision="cm-11.0" />
   <project path="system/netd" name="SlimRoms/android_system_netd" remote="github" revision="kk4.4" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
   <project path="system/vold" name="SlimRoms/android_system_vold" remote="github" revision="kk4.4" />
