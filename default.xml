@@ -441,7 +441,7 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
-  <project path="platform_manifest" name="nelo360/platform_manifest" remote="github" revision="kk4.4-caf" />
+  <project path="platform_manifest" name="nelo360/platform_manifest" remote="github" revision="kk4.4-caf.sup" />
 
   <!-- New Additions for slim -->
   <project path="vendor/slim" name="nelo360/vendor_slim" remote="github" revision="kk4.4" />
