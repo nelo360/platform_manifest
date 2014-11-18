@@ -280,7 +280,7 @@
   <project path="hardware/libhardware" name="SlimRoms/hardware_libhardware" remote="github" revision="kk4.4-caf" />
   <project path="hardware/libhardware_legacy" name="SlimRoms/hardware_libhardware_legacy" remote="github" revision="kk4.4-caf" />
   <project path="hardware/qcom/audio" name="SlimRoms/hardware_qcom_audio" remote="github" revision="kk4.4" />
-  <project path="hardware/qcom/bt" name="SlimRoms/hardware_qcom_bt" remote="github" revision="kk4.4" />
+  <project path="hardware/qcom/bt" name="SlimRoms/hardware_qcom_bt" remote="github" revision="kk4.4-caf" />
   <project path="hardware/qcom/camera" name="SlimRoms/hardware_qcom_camera" remote="github" revision="kk4.4" />
   <project path="hardware/qcom/display" name="SlimRoms/hardware_qcom_display" remote="github" revision="kk4.4" />
   <project path="hardware/qcom/fm" name="SlimRoms/hardware_qcom_fm" remote="github" revision="kk4.4" />
@@ -298,7 +298,7 @@
   <project path="hardware/ti/omap4xxx" name="SlimRoms/hardware_ti_omap4xxx" remote="github" revision="kk4.4" />
   <project path="hardware/ti/wlan" name="SlimRoms/hardware_ti_wlan" remote="github" revision="kk4.4" />
   <project path="hardware/ti/wpan" name="SlimRoms/hardware_ti_wpan" remote="github" revision="kk4.4" />
-  <project path="libcore" name="SlimRoms/platform_libcore" remote="github" revision="kk4.4" />
+  <project path="libcore" name="SlimRoms/android_libcore" remote="github" revision="kk4.4" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
@@ -457,6 +457,9 @@
 
   <!-- Apollo -->
   <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" remote="github" revision="cm-11.0" />
+
+  <!-- SlimLauncher -->
+  <project path="packages/apps/SlimLauncher" name="SlimRoms/packages_apps_SlimLauncher" remote="github" revision="kk4.4" />
 
   <!-- DSPManager -->
   <project path="packages/apps/DSPManager" name="SlimRoms/packages_apps_DSPManager" remote="github" revision="kk4.4" />
